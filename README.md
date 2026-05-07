@@ -1,6 +1,6 @@
 ## Репозитории
 
-- Backend and Frontend: https://gitlab.com/aston_practice_backend_frontend
+- Backend and Frontend: https://github.com/Ckvladimir/kanban-monorepo
 
 ## Сборка Docker-образов
 
