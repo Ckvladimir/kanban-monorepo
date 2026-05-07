@@ -1,0 +1,24 @@
+name: Local CI/CD
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  deploy-local:
+    name: Build and run demo app on VM
+    runs-on: [self-hosted, linux, x64]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Stop old containers
+        run: docker compose down
+
+      - name: Build and start all services
+        run: docker compose up --build -d
+
+      - name: Show running containers
+        run: docker ps
