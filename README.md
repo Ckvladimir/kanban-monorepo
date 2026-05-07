@@ -1,5 +1,3 @@
-# Task 6
-
 ## Репозитории
 
 - Backend and Frontend: https://gitlab.com/aston_practice_backend_frontend
