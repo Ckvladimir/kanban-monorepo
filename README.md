@@ -1,6 +1,6 @@
 ## Репозитории
 
-- Backend and Frontend: https://github.com/Ckvladimir/kanban-monorepo
+- Backend and Frontend: https://github.com/Ckvladimir/kanban-monorepo  
 
 ## Сборка Docker-образов
 
